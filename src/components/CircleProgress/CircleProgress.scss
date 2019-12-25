@@ -1,0 +1,18 @@
+@import 'Assets/style/mixin.scss';
+
+.CircleProgress {
+  position: relative;
+  display: inline-block;
+
+  .circle-box {
+    circle {
+      transition: all 0.3s;
+    }
+  }
+
+  .progress {
+    position: absolute;
+    font-size: 12px;
+    @include center-both;
+  }
+}
